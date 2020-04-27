@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding:0;
+
+}
+
+
+.site-header{
+    background-color: rgb(87, 163, 76);
+    color:white;
+    height:100vh;
+    font-family:monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header-content{
+    margin: 10px;
+
+    
+    
+}
+
+
+.profile-pic{
+    width: 150px;
+    height:150px;
+    align-self: center;
+    border-radius:50%;
+   
+
+}
+
+.profile-pic:hover{
+   
+   
+    box-shadow: #07440b 2px 5px 5px; 
+      
+
+}
+@keyframes rotation {
+
+    animation: rotation 8s infinite linear;
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
